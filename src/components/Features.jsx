@@ -1,11 +1,10 @@
-import IndFeature from "./indFeature"
-
 import verifiedIcon from '../assets/verified-icon.svg'
 import handIcon from '../assets/hand-icn.svg'
 import shippingIcon from '../assets/shipping-icon.svg'
 
 import CtaButton from "./CtaButton"
 
+import IndFeature from "./IndFeature"
 
 export default function Features(){
     return(
