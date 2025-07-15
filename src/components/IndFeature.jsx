@@ -1,4 +1,4 @@
-export default function IndFeature({feature, icon, details}){
+export default function IndFeature({feature, icon, details, ...props}){
     return(
         <div id="indFeature" className={feature}>
             <h4>{feature}</h4>
