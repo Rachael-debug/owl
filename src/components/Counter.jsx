@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useInView } from "react-intersection-observer";
 
-export default function Counter({ target, suffix = "", duration = 1000 }) {
+export default function Counter({ target, suffix = "", duration = 2000 }) {
   const [count, setCount] = useState(0);
   const { ref, inView } = useInView({ triggerOnce: true });
 
