@@ -29,7 +29,10 @@ html {
   scroll-behavior: smooth;
  
 }
-
+a{
+  text-decoration: none;
+  color: #fdf6e3;
+}
 header{
   list-style-type: none;
   display: flex;
@@ -69,6 +72,7 @@ header.scrolled{
   font-family: 'basheq';
   font-size: 26px;
 }
+
 main{
   display: flex;
   margin-left: 50px;

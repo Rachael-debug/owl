@@ -22,7 +22,7 @@ export default function Header() {
     <header className= {isScrolled ? 'scrolled' : undefined}>
       <NavLinks page="Home"/>
       <NavLinks page="Catalog"/>
-      <li id="logo">OWL</li>
+      <a href="#Home"><li id="logo">OWL</li></a>
       <NavLinks page="Features"/>
       <NavLinks page="Contact"/>
     </header>
