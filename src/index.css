@@ -797,8 +797,8 @@ Footer p{
   /* padding-top: 25px; */
   /* background-color: #141414; */
   font-size: 16px;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
   
 }
 
@@ -820,19 +820,20 @@ Footer p{
 
 #logo {
   font-size: 22px;
+  line-height: 22px;
 }
 main{
   display: flex;
-  margin-left: 30px;
+  margin-left: 20px;
   
   margin-bottom: 50px;
   
 }
 main h1{
-  font-size: 52px;
-  line-height: 56px;
+  font-size: 48px;
+  line-height: 50px;
   /* text-fill-color: transparent; */
-  width: 90%;
+  width: 100%;
  
 }
 
@@ -894,11 +895,11 @@ main p{
   padding: 20px 20px;
   display: flex;
   flex-direction: row;
-  gap: 20%;
+  gap: 10%;
   justify-content: center;
 }
 #stats h3{
-  font-size: 45px;
+  font-size: 43px;
   /* line-height: 52px;
   background: linear-gradient(90deg, #FFFFFF 26.5%, #5B3F31 96.14%);
   -webkit-background-clip: text;
@@ -925,8 +926,10 @@ main p{
   /* display: flex;
   background-color: rgba(164, 10, 10, 0.71); */
   padding: 10px;
-  padding-right: 30px;
+  padding-right: 20px;
+  padding-bottom: 20px;
   margin-left: 30px;
+  flex-direction: column;
   /* animation: slide-in-from-right 1s ease-in-out; */
 }
 
@@ -939,7 +942,7 @@ main p{
   margin-left: 12px;
 }
 #allProduct h3{
-  font-size: 28px;
+  font-size: 22px;
   line-height: 30px;
   /* text-overflow: ellipsis;
   overflow: hidden;
@@ -972,7 +975,7 @@ main p{
 }
 #handlePrev{
   /* position: absolute; */
-  top: 650px;
+  top: 200vw;
   font-size: 18px;
   left: 40px;
   /* background-color: #141414; */
@@ -983,7 +986,7 @@ main p{
 }
 #handleNext{
   /* position: absolute; */
-  top: 650px;
+  top: 200vw;
   font-size: 18px;
   left: 210px;
   /* background-color: #141414; */
@@ -1008,8 +1011,8 @@ main p{
   position: absolute;
   /* width: 1902.62px; */
   height: 340px;
-  left: -34px;
-  top: 750px;
+  left: -30px;
+  top: 295vw;
   font-weight: 600;
   /* font-size: 350px; */
   /* font-size: 27vw; */
@@ -1034,7 +1037,7 @@ main p{
 }
 #Features h3{
   /* font-family: 'basheq'; */
-  font-size: 45px;
+  font-size: 36px;
   /* text-align: center;
   background: linear-gradient(90deg, #fdf6e3 26.5%, #5B3F31 96.14%);
   -webkit-background-clip: text;
