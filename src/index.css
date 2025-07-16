@@ -187,6 +187,10 @@ main p{
   animation: slide-in-from-right 1s ease-in-out;
 }
 
+#catalogImages{
+  position: relative;
+}
+
 #catalogImages img{
   width: 250px;
   height: 280px;
@@ -230,9 +234,9 @@ main p{
 }
 #handlePrev{
   position: absolute;
-  top: 800px;
+  top: 40%;
   font-size: 25px;
-  left: 340px;
+  left: -1rem;
   background-color: #141414;
   padding: 7px 12px;
   border-radius: 30px;
@@ -242,9 +246,9 @@ main p{
 }
 #handleNext{
   position: absolute;
-  top: 800px;
+  top: 40%;
   font-size: 25px;
-  left: 590px;
+  right: -1rem;
   background-color: #141414;
   padding: 7px 12px;
   border-radius: 30px;
@@ -263,6 +267,7 @@ main p{
   background-color: #470606;
   padding: 30px 50px;
   overflow: hidden;
+  position: relative;
 }
 #Features h1{
   /* Features */
@@ -271,7 +276,7 @@ main p{
   /* width: 1902.62px; */
   height: 707px;
   left: -60px;
-  top: 928px;
+  bottom: 0%;
   font-weight: 600;
   /* font-size: 350px; */
   font-size: 27vw;
@@ -497,6 +502,7 @@ main h1{
 
 #homep1{
   width: 100%;
+  position: relative;
 }
 /* #lightShadow{
   position: absolute;
@@ -523,7 +529,7 @@ main h1{
 #homep1 img{
   width: 40px;
   /* position: absolute; */
-  bottom: 180px;
+  bottom: 0;
   /* right: 50px; */
 }
 main p{
@@ -631,9 +637,9 @@ main p{
 }
 #handlePrev{
   /* position: absolute; */
-  top: 550px;
+  /* top: 550px; */
   font-size: 18px;
-  left: 384px;
+  /* left: 384px; */
   /* background-color: #141414; */
   padding: 7px 10px;
   border-radius: 30px;
@@ -643,9 +649,9 @@ main p{
 }
 #handleNext{
   /* position: absolute; */
-  top: 550px;
+  /* top: 550px; */
   font-size: 18px;
-  left: 206px;
+  /* left: 206px; */
   /* background-color: #141414; */
   padding: 7px 10px;
   border-radius: 30px;
@@ -671,7 +677,7 @@ main p{
   /* width: 1902.62px; */
   height: 450px;
   left: -40px;
-  top: 660px;
+  bottom: 22%;
   font-weight: 600;
   /* font-size: 350px; */
   /* font-size: 27vw; */
@@ -865,7 +871,7 @@ main h1{
 #homep1 img{
   width: 40px;
   /* position: absolute; */
-  bottom: 180px;
+  /* bottom: 180px; */
   /* right: 50px; */
 }
 main p{
@@ -975,9 +981,9 @@ main p{
 }
 #handlePrev{
   /* position: absolute; */
-  top: 200vw;
+  /* top: 40%; */
   font-size: 18px;
-  left: 40px;
+  /* left: -1rem; */
   /* background-color: #141414; */
   padding: 7px 10px;
   /* opacity: 0.2;
@@ -986,9 +992,9 @@ main p{
 }
 #handleNext{
   /* position: absolute; */
-  top: 200vw;
+  /* top: 200vw; */
   font-size: 18px;
-  left: 210px;
+  right: 7rem;
   /* background-color: #141414; */
   padding: 7px 10px;
   
@@ -1012,7 +1018,7 @@ main p{
   /* width: 1902.62px; */
   height: 200px;
   left: -25px;
-  top: 290vw;
+  bottom: 79%;
   font-weight: 600;
   /* font-size: 350px; */
   /* font-size: 27vw; */
