@@ -1,7 +1,9 @@
 export default function CtaButton(){
     return(
-        <button className="cta">
-            VIEW CATALOG
-        </button>
+        <a href="#Catalog">
+            <button className="cta">
+                VIEW CATALOG
+            </button>
+        </a>
     )
 }
