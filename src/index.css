@@ -106,6 +106,7 @@ main h1{
   top: 36px;
   background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.15) 0%, rgba(20, 20, 20, 0) 99.98%);
   z-index: -50;
+  animation: appear-in 4s ease-in-out;
 }
 
 #homep2{
@@ -942,7 +943,9 @@ main p{
   flex-direction: column;
   /* animation: slide-in-from-right 1s ease-in-out; */
 }
-
+#catalogImages{
+  width: fit-content;
+}
 #catalogImages img{
   width: 170px;
   height: 200px;
@@ -998,7 +1001,7 @@ main p{
   /* position: absolute; */
   /* top: 200vw; */
   font-size: 18px;
-  right: 7rem;
+  /* transform: translateX(-11rem); */
   /* background-color: #141414; */
   padding: 7px 10px;
   
@@ -1006,6 +1009,7 @@ main p{
   cursor: pointer;
   transition: all 0.2s ease; */
 }
+
 /* #handleNext:hover, #handlePrev:hover{
   opacity: 0.7;
   transition: all 0.2s ease;
